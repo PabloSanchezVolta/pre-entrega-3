@@ -1,0 +1,264 @@
+nav {
+    padding: 16px;
+    background-color: #303030;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    
+
+
+}
+
+
+
+body{
+    background: rgb(42,159,161);
+background: linear-gradient(0deg, rgba(42,159,161,1) 0%, rgba(8,43,43,1) 20%, rgba(0,0,0,1) 50%, rgba(14,6,23,1) 75%, rgba(126,51,200,1) 100%);
+margin-bottom: 50px;
+}
+
+
+.logo {
+    position: relative;
+    top: 50px;
+    scale: 30%;
+    left: 120px;
+
+}
+
+
+h1 {
+    color: rgb(236, 236, 236);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+    position: relative;
+    left: 10px;
+}
+
+h5 {
+    color: rgb(236, 236, 236);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+    position: relative;
+    left: 20px;
+}
+
+.card-text {
+    text-align: left;
+}
+
+
+
+.body-portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-img-top {
+    position: relative;
+    right: 160px;
+}
+
+.inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0%;
+}
+
+ul li {
+    color: rgb(218, 218, 218);
+    display: inline-block;
+    margin: 0px;
+}
+
+
+p {
+    text-align:center;
+    text-justify:auto
+}
+
+
+
+h3 {
+    color: rgb(210, 60, 240);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+div {
+    padding: 25px;
+    
+}
+
+body {
+    background-color: #181818;
+    flex-direction: row;
+}
+p {
+    display: flex;
+    justify-content: center;
+    color: rgb(218, 218, 218);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    padding: 80px;
+    display: grid;
+    grid-template-areas: 
+    "servicios";
+}
+
+.servicios {
+    background-color: #3030301c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 75px;
+    
+}
+
+.trabajos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.serv1:hover {
+    transform: scale(2);
+}
+.serv2:hover {
+    transform: scale(2);
+}
+.serv3:hover {
+    transform: scale(2);
+}
+.serv4:hover {
+    transform: scale(2);
+}
+.serv1 {
+    transition-duration: 0.5s;
+}
+.serv2 {
+    transition-duration: 0.5s;
+}
+.serv3 {
+    transition-duration: 0.5s;
+}
+.serv4 {
+    transition-duration: 0.5s;
+}
+
+.serv1 {
+    font-size: 200%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: rgb(42,159,161);
+}
+.serv2 {
+    font-size: 200%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: rgb(42,159,161);
+}
+
+.serv3 {
+    font-size: 200%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: rgb(42,159,161);
+}
+
+.serv4 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 200%;
+    color: rgb(42,159,161);
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.redes {
+    scale: 35%;
+    position: relative;
+    bottom: 300px;
+}
+
+.card {
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+    nav {
+    
+       align-items: center;
+       justify-content: space-between;
+    
+    
+    }
+    ul li {
+        display: block;
+        font-size: 2em;
+        margin: 8px 0;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    ul {
+    
+    
+        list-style-type: none;
+        padding: 0;
+        display: block
+    
+        
+    }
+    main {
+        align-items: center;
+        justify-content: center;
+        padding: 0%;
+    }
+    
+
+ 
+}
+
